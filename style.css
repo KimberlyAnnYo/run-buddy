@@ -68,7 +68,7 @@ footer a{
 /*Hero Style Start */
 .hero {
     padding: 60px;
-    background-image: url("images/hero.jpg");
+    background-image: url("images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -102,7 +102,7 @@ footer a{
  .hero-form p {
      margin: 5px 0 15px 0;
  }
- ,form-input{
+ .form-input{
      border: 1px solid #024e76;
      display: block;
      padding: 7px 15px;
