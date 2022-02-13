@@ -185,7 +185,6 @@ footer a{
     font-size: 16px;
   }
   .intro {
-    text-align: center;
   }
   /*.intro h2 {
     font-size: 55px;
@@ -204,9 +203,9 @@ footer a{
       width: 80%;
       font-size: 20px;
       margin: 0 auto;
+      text-align: center;
   }
   .steps {
-      text-align: center;
       background: #fce138;
   }/*
   .steps h2 {
@@ -220,10 +219,11 @@ footer a{
   .section-title {
       font-size:  55px;
       color: #024e76;
-      margin-bottom: 35px;
-      padding: 0 100px 0px 100px;
-      display: inline-block;
       border-bottom: 3px solid;
+      padding-bottom: 20px;
+      text-align: center;
+      margin: 0 auto 35px auto;
+      width: 50%
   }
   .primary-border {
       border-color: #fce138;
@@ -294,7 +294,6 @@ footer a{
   .contact {
     background: #024e76;
     color: #f7f7f7;
-    text-align: center;
 }
   .contact h2 {
       color: #fce138;
@@ -331,3 +330,6 @@ footer a{
   }
 /* end reach out styling */
 /*secondary page hero*/
+.flex-row {
+    display: flex;
+}
