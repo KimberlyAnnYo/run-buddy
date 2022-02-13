@@ -9,12 +9,14 @@ body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
-/* apply styles to <header< */
+/* apply styles to <header> */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-/* applies 20px tp every side (top,right, bottom, left) */
+/* applies 20px to every side (top,right, bottom, left) */
 header {
     padding: 20px;
 }
@@ -174,7 +176,6 @@ footer a{
     border-color: #fce138;
   } */
   .intro h2{
-      /*add text inline block*/
       display: inline-block;
   }
   .intro p {
