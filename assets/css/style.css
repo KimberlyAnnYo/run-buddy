@@ -59,6 +59,7 @@ footer {
   background: #fce138;
   padding: 40px 35px;
   width: 100%;
+  display: flex;
 }
 
 footer h2 {
@@ -69,7 +70,6 @@ footer h2 {
 }
 
 footer div {
-  float: right;
   line-height: 1.5;
   text-align: right;
 }
