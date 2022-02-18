@@ -230,7 +230,7 @@ section {
 
 .checkbox-wrapper input:checked + label::after,
 .radio-wrapper input:checked + label::after {
-  content: none;
+  content: "";
 }
 
 .hero-form label {
